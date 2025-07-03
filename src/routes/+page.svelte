@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+  import OptimizedImage from '$lib/components/OptimizedImage.svelte';
   
   let isVisible = false;
   let sectionsVisible = Array(4).fill(false);
@@ -50,17 +51,17 @@
       <div class="avatar-container">
         <div class="avatar-glow"></div>
         <div class="avatar-placeholder">
-          <img src="/assets/img/IMG_9591.jpg" alt="Foto de perfil" />
+          <OptimizedImage src="/assets/img/IMG_9591.jpg" alt="Foto de perfil" loading="eager" />
         </div>
       </div>
     </div>
     <div class="hero-text">
       <div class="hero-badge">Desenvolvedor Web</div>
       <h1>Olá, sou <span class="highlight">Paulo Ricardo</span></h1>
-      <h2>Analiista de sistemas & Desenvolvedor</h2>
+      <h2>Analista de sistemas & Desenvolvedor</h2>
       <p>Transformando ideias em experiências digitais incríveis com soluções elegantes e modernas</p>
       <div class="cta-buttons">
-        <a href="/projetos" class=" primary">Ver Projetos</a>
+        <!-- <a href="/projetos" class=" primary">Ver Projetos</a> -->
         <a href="/contato" class=" secondary">Entrar em Contato</a>
       </div>
     </div>
