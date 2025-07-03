@@ -64,10 +64,10 @@
         <span class="nav-label">Sobre</span>
         <div class="nav-indicator"></div>
       </a>
-      <a href="/projetos" class="nav-item" class:active={$page?.url?.pathname?.startsWith('/projetos')}>
+      <!-- <a href="/projetos" class="nav-item" class:active={$page?.url?.pathname?.startsWith('/projetos')}>
         <span class="nav-label">Projetos</span>
         <div class="nav-indicator"></div>
-      </a>
+      </a> -->
       <a href="/contato" class="nav-item" class:active={$page?.url?.pathname === '/contato'}>
         <span class="nav-label">Contato</span>
         <div class="nav-indicator"></div>

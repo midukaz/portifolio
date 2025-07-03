@@ -54,7 +54,7 @@
     <div class="avatar-container">
       <div class="avatar-glow"></div>
       <div class="avatar-placeholder">
-        <span>Sua Foto</span>
+        <img src="/assets/img/IMG_2.jpeg" alt="Foto de perfil" />
       </div>
     </div>
   </div>
@@ -314,6 +314,13 @@
     font-size: 1.2rem;
     position: relative;
     z-index: 1;
+  }
+  
+  .avatar-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
   }
   
   :global(body.dark-mode) .avatar-placeholder {

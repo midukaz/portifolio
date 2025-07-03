@@ -127,7 +127,8 @@
 
 <section class="projects-header animated-section" class:visible={sectionsVisible[0]}>
   <div class="projects-badge">💼 Portfólio</div>
-  <h1>Meus <span class="highlight">Projetos</span></h1>
+  <h1>
+    <span class="highlight">Projetos</span></h1>
   <p class="subtitle">Uma seleção dos meus trabalhos recentes e mais relevantes</p>
   
   <div class="filter-tabs">

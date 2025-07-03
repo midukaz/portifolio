@@ -50,7 +50,7 @@
       <div class="avatar-container">
         <div class="avatar-glow"></div>
         <div class="avatar-placeholder">
-          <span>Sua Foto</span>
+          <img src="/assets/img/IMG_9591.jpg" alt="Foto de perfil" />
         </div>
       </div>
     </div>
@@ -115,7 +115,7 @@
   </div>
 </section>
 
-<section class="featured-projects animated-section" class:visible={sectionsVisible[2]}>
+<!-- <section class="featured-projects animated-section" class:visible={sectionsVisible[2]}>
   <h2>Projetos Destacados</h2>
   <div class="projects-grid">
     <div class="project-card">
@@ -153,7 +153,7 @@
   <div class="view-all">
     <a href="/projetos" class=" secondary">Ver todos os projetos</a>
   </div>
-</section>
+</section> -->
 
 <style>
   .glass-shape {
@@ -489,6 +489,13 @@
     font-size: 1.2rem;
     position: relative;
     z-index: 1;
+  }
+  
+  .avatar-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
   }
   
   :global(body.dark-mode) .avatar-placeholder {
